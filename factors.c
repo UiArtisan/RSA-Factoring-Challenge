@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <gmp.h>
-#include <sys/types.h>
-#if defined(_WIN64)
-typedef long ssize_t;
-#endif
 
 /**
  * main - Entry point.
